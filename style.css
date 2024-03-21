@@ -5,7 +5,7 @@
 }
 /* Navigation Bar Starts */
 .navbar {
-  height: 60px;
+  height: 3.8rem;
   background-color: #231f20;
   color: white;
   display: flex;
@@ -16,19 +16,19 @@
 }
 /* box 1 */
 .navlogo {
-  height: 60px;
-  width: 150px;
+  height: 3.5rem;
+  width: 8.5rem;
 }
 .logo {
-  font-size: 1px;
+  /* font-size: 1px; */
   background-image: url(./amazon-dark-logo-png-transparent8\(1\).png);
   background-size: cover;
   position: relative;
-  height: 57px;
-  width: 150px;
+  height: 3.5rem;
+  width: 8.5rem;
 }
 .border {
-  border: 1px solid transparent;
+  border: 0.1rem solid transparent;
 }
 .border:hover {
   border: 1px solid white;
@@ -185,4 +185,82 @@ span {
 }
 .box-content p:hover {
   color: #222f3d;
+}
+
+                      /* footer */
+
+footer{
+  margin-top: 1.5rem;
+}
+.footer-panel1{
+      background-color: #37475a;
+      color: white;
+      height: 2.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 0.85rem;
+}
+
+.footer-panel2{
+      background-color: #222f3d;
+      color: #dddddd;
+      height: 25rem;
+      display: flex;
+      justify-content: space-evenly;
+}
+ul{
+  margin-top: 3rem ;
+}
+ul a{
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 1rem;
+}
+.footer-panel3{
+  background-color: #222f3d;
+  color: #dddddd;
+  border-top: 0.1rem solid white;
+  height: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.logo1{
+  background-size: cover;
+  position: relative;
+  height: 3.5rem;
+  width: 9rem;
+  
+}
+
+.dropdown{
+      outline: none;
+      font-size: 1rem;
+      height: 2.5rem;
+      border: #dddddd 0.1rem solid;
+      width: 10rem;
+      color: #dddddd;
+      background-color: #222f3d;
+      border-radius: 0.3rem;
+      display: flex;
+      align-items: center;
+}
+.footer-panel4{
+  background-color: #0f1111;
+  color: #dddddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 3.5rem;
+}
+
+.pages{
+  font-size: 0.6rem;
+}
+
+.copyright>p{
+    font-size: 2rem;
+    width: 5rem;
 }
